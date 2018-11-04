@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "declaration": true,
+    "outDir": "dist/",
+    "sourceMap": true,
+    "strict": true,
+    "target": "ES2016",
+    "module": "commonjs",
+    "esModuleInterop": true,
+    "noErrorTruncation": true,
+    "noUnusedLocals": true,
+    "noUnusedParameters": true,
+    "typeRoots": [
+      "./node_modules/@types/",
+      "./types/"
+    ]
+  },
+  "include": ["**/*.ts"]
+}

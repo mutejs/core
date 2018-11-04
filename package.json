@@ -1,0 +1,31 @@
+{
+  "name": "@mute/core",
+  "version": "1.0.0",
+  "description": "The core functionality for MUTE",
+  "main": "index.js",
+  "scripts": {
+    "test": "karma start"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mutejs/core.git"
+  },
+  "author": "Todd Kennedy <todd@selfassembled.org>",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/mutejs/core/issues"
+  },
+  "homepage": "https://github.com/mutejs/core#readme",
+  "devDependencies": {
+    "browserify": "^16.2.3",
+    "electron": "^3.0.7",
+    "istanbul": "^0.4.5",
+    "karma": "^3.1.1",
+    "karma-browserify": "^5.3.0",
+    "karma-coverage": "^1.1.2",
+    "karma-electron-launcher": "^0.2.0",
+    "karma-tap": "^4.1.4",
+    "tape": "^4.9.1",
+    "typescript": "^3.1.6"
+  }
+}
